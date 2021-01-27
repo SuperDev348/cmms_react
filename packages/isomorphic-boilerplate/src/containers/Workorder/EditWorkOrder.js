@@ -284,6 +284,7 @@ export default function (props) {
       setStrAssetIds(workorder.workorder.strAssetIds != null? workorder.workorder.strAssetIds : "");
       setStrDescription(workorder.workorder.strDescription);
       setStrEstimatedHours(workorder.workorder.intEstimatedHour);
+      setDtmEstimatedStartDate(workorder.workorder.dtmEstimatedStartDate);
       // if(Object.keys(workorder.asset).length !==0){
       //   console.log(workorder.asset);        
       //   setAssetName(workorder.asset.strName);
@@ -537,7 +538,7 @@ export default function (props) {
                   <Fieldset>
                     <Label>Suggested Completion Date</Label>
                    
-                   <DatePicker showTime value={dtmSuggestedCompletionDate!=null?moment(dtmSuggestedCompletionDate,'YYYY-MM-DD HH:mm:ss'):""} onChange={onChange} style={{width:'70%'}}  />
+                   <DatePicker value={dtmSuggestedCompletionDate!=null?moment(dtmSuggestedCompletionDate,'YYYY-MM-DD HH:mm:ss'):""} onChange={onChange} style={{width:'70%'}}  />
 
                   </Fieldset>
                 </Form>

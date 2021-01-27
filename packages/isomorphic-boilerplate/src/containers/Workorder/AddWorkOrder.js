@@ -485,7 +485,7 @@ export default function (props) {
                       help={dtmSuggestedCompletionDate == null? "this field is require" : ""}
                       style={{ width: "90%" }}
                     >
-                      <DatePicker showTime value={dtmSuggestedCompletionDate!=null?moment(dtmSuggestedCompletionDate,'YYYY-MM-DD HH:mm:ss'):""} onChange={onChange} style={{width:'70%'}}  />
+                      <DatePicker value={dtmSuggestedCompletionDate!=null?moment(dtmSuggestedCompletionDate,'YYYY-MM-DD HH:mm:ss'):""} onChange={onChange} style={{width:'70%'}}  />
                     </FormItem>
                   </Fieldset>
                 </Form>

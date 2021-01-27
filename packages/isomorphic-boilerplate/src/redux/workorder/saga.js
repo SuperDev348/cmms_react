@@ -123,12 +123,14 @@ export function* getCalendarDatas() {
         //  value.key=parseInt(index)+1;
         // var event={};
         value.id = value._id;
-        value.title = value.projectTitle + "(" + value.strAssignedUsers + ")";
+        value.title = value.strAssets + "(" + value.strAssignedUsers + ")";
         value.assignedUser = value.strAssignedUsers; // name assigned to user.
         // value.start= new moment(value.dtmSuggestedCompletionDate).toDate();
         value.start = new moment(value.dtmEstimatedStartDate).toDate();
         console.log(value.start);
-        value.end = new moment(value.dtmSuggestedCompletionDate).toDate();
+        let tmp = new moment(value.dtmEstimatedStartDate).toDate();
+        tmp.setHours( tmp.getHours() + value.intEstimatedHour );
+        value.end = tmp;
         value.desc = value.strDescription;
         value.allDay = false;
         temp.push(value);

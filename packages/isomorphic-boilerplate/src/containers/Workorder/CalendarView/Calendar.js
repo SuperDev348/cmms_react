@@ -50,17 +50,17 @@ const title = (user, hour, date) => {
 }
 const mapToRBCFormat = e =>
   Object.assign({}, e, {
-    title: title(checkInvalid(e.assignedUser), checkInvalid(e.intEstimatedHour), checkInvalid(e.dtmSuggestedCompletionDate)),
+    // title: title(checkInvalid(e.assignedUser), checkInvalid(e.intEstimatedHour), checkInvalid(e.dtmSuggestedCompletionDate)),
     start: new Date(e.start),
     end: new Date(e.end)
   });
-
 const getIndex = (events, selectedEvent) =>
-  events.findIndex(event => event.id === selectedEvent.id);
+  events.findIndex((event) => event.id == selectedEvent.id);
+
 
 export default function DndCalendar() {
   let history = useHistory();
-  const { events, view,workorders } = useSelector(state => state.Workorders);
+  const { events, view, workorders } = useSelector(state => state.Workorders);
   const {  users } = useSelector(state => state.Users);
   const [workOrderFilterModalActive,setWorkOrderFilterModalActive]=React.useState(false);
   const [filterTxt,setFilterTxt]=React.useState('(Built in Filter) All Work Orders');
@@ -71,7 +71,7 @@ export default function DndCalendar() {
     modalVisible: false,
     selectedData: undefined,
   });
- 
+
   React.useEffect(() => {
        dispatch(getCalendarData());
        dispatch(initData());
@@ -83,6 +83,7 @@ export default function DndCalendar() {
   setFiltered(events);
 }, [events]);
 
+  
   const onSelectEvent = selectedData => {
     console.log(selectedData,'selectedData');
   
@@ -114,9 +115,16 @@ export default function DndCalendar() {
     // nextEvents.splice(idx, 1, updatedEvent);
     
     // dispatch(changeEvents(nextEvents));
+    let prevStartDate = new moment(events[getIndex(events, event)].start).toDate();
+    let startDate = new moment(start).toDate();
+    var diff =(startDate.getTime() - prevStartDate.getTime()) / 1000;
+    diff /= (60 * 60);
+    let diffHour = Math.round(diff);
+    let estimatedHour = events[getIndex(events, event)].intEstimatedHour + diffHour;
+
     var sendData={};
-    sendData.dtmSuggestedCompletionDate=new moment(start).format('YYYY-MM-DD HH:mm:ss');
-    dispatch(updateCalendarData(sendData,event._id));
+    sendData.intEstimatedHour = estimatedHour >= 0? estimatedHour: 0;
+    dispatch(updateCalendarData(sendData, event._id));
 
     notification(
       'success',
@@ -133,7 +141,7 @@ export default function DndCalendar() {
     });
 
     dispatch(updateCalendarData(nextEvents));
-
+    
     notification(
       'success',
       'Resize event successfully',

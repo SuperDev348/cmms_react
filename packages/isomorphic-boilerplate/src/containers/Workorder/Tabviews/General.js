@@ -30,13 +30,12 @@ const rowStyle1 = {
   flexFlow: "row wrap", 
 };
 const isNumeric = (str) => {
-  if (typeof str != "string") return false // we only process strings!  
   return !isNaN(str) && // use type coercion to parse the _entirety_ of the string (`parseFloat` alone does not do this)...
          !isNaN(parseFloat(str)) // ...and ensure strings of whitespace fail
 }
 export default function(props) {   
   const {workorder,pageState}=props;
-   const [equipmentPartModalActive,setEquipmentPartModalActive]=React.useState(false);
+  const [equipmentPartModalActive,setEquipmentPartModalActive]=React.useState(false);
   const[equipmentLocatedModalActive,setEquipmentLocatedModalActive]=React.useState(false);
   const [accountsModalActive,setAccountsModalActive]=React.useState(false);
   const [chargeDepartModalActive,setChargeDepartModalActive]=React.useState(false);
@@ -189,9 +188,12 @@ export default function(props) {
                                 validateStatus={estimatedStartDate == null? "error" : "success"}
                                 help={estimatedStartDate == null? "this field is require" : ""}
                               > 
-                                <DatePicker showTime value={estimatedStartDate!=null?moment(estimatedStartDate,'YYYY-MM-DD HH:mm:ss'):""} 
+                                <DatePicker value={estimatedStartDate!=null?moment(estimatedStartDate,'YYYY-MM-DD HH:mm:ss'):""} 
+                                showTime
                                 onChange={
                                   (value, dateString) => {
+                                    // let date = new moment(dateString).toDate();
+                                    // date.setHours(8);
                                     setEstimatedStartDate(dateString);
                                     props.setEstimatedStartDate(dateString);
                                   }}  />
@@ -203,7 +205,7 @@ export default function(props) {
                         <Form>
                           <Fieldset>
                             <Label>Estimated Labor</Label>
-                            <div style={{position:"relative"}}>   
+                            <div style={{position:"relative"}}>
                               <FormItem
                                 hasFeedback
                                 validateStatus={(strEstimatedHours != "" && isNumeric(strEstimatedHours)) ? "success" : "error"}
