@@ -570,13 +570,13 @@ export default function (props) {
             Content of Tab Pane 2
           </TabPane>
           <TabPane tab="Labor Tasks" key="3">
-           <LaborTask
-           assetName={assetName}
-           assetId={strAssetIds}
-           workorderId={intWorkOrderId}
-           strAssetIds={strAssetIds.split(",")}
-           strAssets={strAssets.split(",")}
-           pageState={"edit"}
+           <LaborTask  
+           assetName={assetName}  
+           assetId={strAssetIds}  
+           workorderId={intWorkOrderId}  
+           strAssetIds={strAssetIds.split(",")}  
+           strAssets={strAssets.split(",")}  
+           pageState={"edit"}   
            ></LaborTask>
           </TabPane>
           <TabPane tab="Parts" key="4">

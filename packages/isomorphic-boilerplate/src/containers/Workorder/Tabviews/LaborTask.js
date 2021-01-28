@@ -38,7 +38,7 @@ export default function (props) {
   const { getDatas } = WorkOrderTaskAction;
   const [
     workOrderTaskModalActive,
-    setWorkOrderTaskModalActive,
+    setWorkOrderTaskModalActive,  
   ] = React.useState(false);
   const [
     addLaborToTaskModalActive,
