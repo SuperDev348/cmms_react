@@ -18,17 +18,17 @@ const Option = SelectOption;
 const rowStyle = {
   width: "100%",
   display: "flex",
-  flexFlow: "row wrap",
-  // marginTop:"-20px",
-  background: "#e0e7ed",
-  // marginLeft:'2px'
-  padding: "5px",
-};
+  flexFlow: "row wrap",  
+  // marginTop:"-20px",  
+  background: "#e0e7ed",  
+  // marginLeft:'2px'  
+  padding: "5px",  
+};   
 const radioStyle = {
-  display: 'block',  
-  height: '30px',  
-  lineHeight: '30px',  
-  marginBottom: '20px'
+  display: 'block',
+  height: '30px',
+  lineHeight: '30px',    
+  marginBottom: '20px'  
 };
 export default function (props) {
   const { workorderId, assetName, strAssetIds, strAssets } = props;

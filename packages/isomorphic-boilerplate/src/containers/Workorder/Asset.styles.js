@@ -8,7 +8,7 @@ const BoxWrapper = styled(BoxComponent)`
     display: flex;
     margin-bottom: 20px;
     a {
-      margin-left: auto;
+      margin-left: auto;      
     }
   }
 `;

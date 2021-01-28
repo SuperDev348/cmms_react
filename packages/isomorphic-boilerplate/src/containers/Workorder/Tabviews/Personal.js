@@ -12,7 +12,7 @@ export default function(props) {
 
    const columns = [
     {
-      title: "User",
+      title: "User",     
       dataIndex: "strEmailUserGuest",
       rowKey: "strEmailUserGuest",
       width: "20%",  
