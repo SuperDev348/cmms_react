@@ -12,10 +12,10 @@ export default function(props) {
 
    const columns = [
     {
-      title: "User",     
+      title: "User",
       dataIndex: "strEmailUserGuest",
       rowKey: "strEmailUserGuest",
-      width: "20%",  
+      width: "20%",
     },
     
     {
@@ -24,8 +24,7 @@ export default function(props) {
       rowKey: "intWorkOrderStatusID",
       width: "*",
       render: (text) => <span>{text}</span>,
-    },    
-   
+    },
   ];
   return (
     <div className="isoInvoiceTable">

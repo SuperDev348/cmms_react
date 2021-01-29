@@ -570,7 +570,7 @@ export default function (props) {
             Content of Tab Pane 2
           </TabPane>
           <TabPane tab="Labor Tasks" key="3">
-           <LaborTask      
+           <LaborTask
            assetName={assetName}  
            assetId={strAssetIds}  
            workorderId={intWorkOrderId}  

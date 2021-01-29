@@ -23,7 +23,7 @@ const rowStyle = {
   background: "#e0e7ed",  
   // marginLeft:'2px'  
   padding: "5px",  
-};   
+};
 const radioStyle = {
   display: 'block',
   height: '30px',
