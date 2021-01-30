@@ -486,7 +486,7 @@ export default function (props) {
                       style={{ width: "90%" }}
                     >
                       <DatePicker value={dtmSuggestedCompletionDate!=null?moment(dtmSuggestedCompletionDate,'YYYY-MM-DD HH:mm:ss'):""} onChange={onChange} style={{width:'70%'}}  />
-                    </FormItem>
+                    </FormItem>    
                   </Fieldset>
                 </Form>
               </Col>

@@ -33,7 +33,7 @@ const isNumeric = (str) => {
   return !isNaN(str) && // use type coercion to parse the _entirety_ of the string (`parseFloat` alone does not do this)...
          !isNaN(parseFloat(str)) // ...and ensure strings of whitespace fail
 }
-export default function(props) {
+export default function(props) {    
   const {workorder,pageState}=props;
   const [equipmentPartModalActive,setEquipmentPartModalActive]=React.useState(false);
   const[equipmentLocatedModalActive,setEquipmentLocatedModalActive]=React.useState(false);

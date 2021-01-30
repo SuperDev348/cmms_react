@@ -49,7 +49,7 @@ const title = (user, hour, date) => {
   return res;
 }
 const mapToRBCFormat = e =>
-  Object.assign({}, e, {
+  Object.assign({}, e, {    
     // title: title(checkInvalid(e.assignedUser), checkInvalid(e.intEstimatedHour), checkInvalid(e.dtmSuggestedCompletionDate)),
     start: new Date(e.start),
     end: new Date(e.end)

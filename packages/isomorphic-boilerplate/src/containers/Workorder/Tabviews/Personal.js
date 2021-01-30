@@ -31,7 +31,7 @@ export default function(props) {
      
       {/* <Scrollbars
         style={{ width: "100%", height: "calc(100vh - 70px)" }}
-      > */}
+      > */}   
         <TableWrapper
           // rowSelection={rowSelection}
           dataSource={data}

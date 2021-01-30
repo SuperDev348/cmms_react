@@ -25,7 +25,7 @@ const rowStyle = {
   padding: "5px",  
 };
 const radioStyle = {
-  display: 'block',
+  display: 'block',    
   height: '30px',
   lineHeight: '30px',    
   marginBottom: '20px'  
