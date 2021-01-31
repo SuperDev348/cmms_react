@@ -580,7 +580,7 @@ export default function (props) {
       ></MaintenanceTypeModal>
 
       <PriorityModal
-        visible={priorityModalActive}
+        visible={priorityModalActive}     
         selectedPriority={selectedPriority}
         title="PRIORITIES"
         onCancel={handleCancel}

@@ -27,7 +27,7 @@ const rowStyle = {
 const radioStyle = {
   display: 'block',    
   height: '30px',
-  lineHeight: '30px',    
+  lineHeight: '30px',       
   marginBottom: '20px'  
 };
 export default function (props) {
