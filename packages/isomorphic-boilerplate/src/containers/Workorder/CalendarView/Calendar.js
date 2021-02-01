@@ -255,7 +255,7 @@ export default function DndCalendar() {
       />
 
       <WorkOrderFilterModal 
-        visible={workOrderFilterModalActive}
+        visible={workOrderFilterModalActive}      
         title="WORK ORDER FILTER"       
         selectUser={selectedFilter}
         onCancel={handleCancel}
