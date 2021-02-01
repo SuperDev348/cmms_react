@@ -19,7 +19,7 @@ export default function(props) {
     },
     {
       title: "Business",
-      dataIndex: "intPriorityID",
+      dataIndex: "intPriorityID",     
       rowKey: "intPriorityID",
       width: "25%",
       render: (text) => <span>{text}</span>,
