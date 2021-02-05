@@ -540,7 +540,7 @@ export default function (props) {
               </TabPane>
               <TabPane tab="Personel" key="4">
               <Personal></Personal>
-              </TabPane>
+              </TabPane>       
               <TabPane tab="Files" key="5">
                 Content of Tab Pane 5
               </TabPane>             */}
