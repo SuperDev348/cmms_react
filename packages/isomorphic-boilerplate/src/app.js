@@ -13,7 +13,7 @@ const App = () => (
         <GlobalStyles />
         <Routes />
       </>
-    </AppProvider>
+    </AppProvider>     
   </Provider>
 );
 Boot()

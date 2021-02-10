@@ -31,7 +31,7 @@ const TableWrapper = styled(Table)`
   }
 
   .ant-table-thead > tr > th,
-  .ant-table-tbody > tr > td {
+  .ant-table-tbody > tr > td {      
     white-space: nowrap;
     text-align: ${(props) => (props['data-rtl'] === 'rtl' ? 'right' : 'left')};
 

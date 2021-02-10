@@ -19,7 +19,7 @@ import UsersContentModal2 from '../../../component/UsersContentModal';
 const FormItem = Form.Item;
 
 const rowStyle = {
-  width: "100%",     
+  width: "100%",        
   display: "flex",
   flexFlow: "row wrap",
   marginBottom:'20px'
