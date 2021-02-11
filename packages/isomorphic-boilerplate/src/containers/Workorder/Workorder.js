@@ -16,7 +16,7 @@ import clone from 'clone';
 import Actions from "../../redux/workorder/actions";
 import userAction from "../../redux/user/actions";
 import CardWrapper, { Box } from "./Asset.styles";
-import TableWrapper from "../../component/AntTables.styles";
+import TableWrapper from "../../component/AntTables.styles";     
 import WorkOrderFilterModal from "../../component/WorkOrderFilterModal";
  import fakeData from './data';
 
