@@ -10,7 +10,7 @@ import Scrollbars from "@iso/components/utility/customScrollBar";
 import Button from "@iso/components/uielements/button";
 import Actions from "../../redux/project/actions";
 import CardWrapper, { Box, StatusTag } from "../Asset/Asset.styles";
-import TableWrapper from "../../component/AntTables.styles";      
+import TableWrapper from "../../component/AntTables.styles";
 const { initData, deleteData } = Actions;
 export default function Workorders() {
   const [selected, setSelected] = React.useState([]);
