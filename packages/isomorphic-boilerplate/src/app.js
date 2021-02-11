@@ -16,7 +16,7 @@ const App = () => (
     </AppProvider>     
   </Provider>
 );
-Boot()     
+Boot()
   .then(() => App())
   .catch(error => console.error(error));
 
