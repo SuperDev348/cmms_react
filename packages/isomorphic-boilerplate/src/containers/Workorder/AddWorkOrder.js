@@ -555,7 +555,7 @@ export default function (props) {
         selectStatus={selectStatus}
         title="WORK ORDER STATUS"
         onCancel={handleCancel}
-      ></WorkOrderStatusModal>      
+      ></WorkOrderStatusModal>
 
       <AssetModal
        visible={assetModalActive}      
