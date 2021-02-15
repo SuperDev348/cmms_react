@@ -23,7 +23,7 @@ const {getAllUserData}=userAction;
 
 const rowStyle = {
   width: "100%",
-  display: "flex",
+  display: "flex",    
   flexFlow: "row wrap",
   // marginTop:"-20px",
   // background: "#e0e7ed",
