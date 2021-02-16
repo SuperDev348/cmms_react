@@ -35,7 +35,7 @@ const priority={
 const workorderStatus_array={
   2:"Requested",3:"Assigned",4:"Open",
   5:"Work In Progress",
-  6:"On Hold",      
+  6:"On Hold",
   7:"Closed, Completed",
   8:"Draft",
   9:"Closed, Incomplete",
