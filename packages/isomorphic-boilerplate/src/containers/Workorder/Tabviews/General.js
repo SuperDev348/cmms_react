@@ -6,7 +6,7 @@ import Input, { InputGroup ,Textarea} from "@iso/components/uielements/input";
 // import Checkbox from '@iso/components/uielements/checkbox';
 // import DateTimePicker from 'react-datetime-picker';
 import { DatePicker, Space } from 'antd';
-import moment from "moment";
+import moment from "moment";       
 import {
   Fieldset,
   // Form,
