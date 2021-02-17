@@ -421,7 +421,7 @@ export default function (props) {
 
       return (
         <div style={{ height: '100%', position: 'relative' }}>
-          <div style={{ padding: '5px', paddingTop: '15px' }}>{assetList}</div>      
+          <div style={{ padding: '5px', paddingTop: '15px' }}>{assetList}</div>
           <div
             style={{
               position: 'absolute',
