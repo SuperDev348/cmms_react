@@ -17,7 +17,7 @@ import { CalendarStyleWrapper } from './Calendar.styles';
 
 const Localizer = momentLocalizer(moment);
 const DragAndDropCalendar = withDragAndDrop(Calendar);
-const { changeView, changeEvents } = calendarActions;   
+const { changeView, changeEvents } = calendarActions;
 const { initData ,getCalendarData,updateCalendarData} = WorkOrderActions;
 const {getAllUserData}=userAction;
 
