@@ -112,7 +112,7 @@ export default function (props) {
   const [strNCRCorrectiveActionClose,setStrNCRCorrectiveActionClose]=React.useState("");
 
   
-  const planInfo=(info)=>{      
+  const planInfo=(info)=>{
     setStrPlanAuditPlan(info.strPlanAuditPlan);
     setStrPlanDate(info.aPlanDate);
     setStrPlanOpenMeetingBegin(info.aPlanOpenMeetingBegin);
