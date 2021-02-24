@@ -29,7 +29,7 @@ const rowStyle = {
   // background: "#e0e7ed",
   //height: "38px",
   // marginLeft:"2px",
-  paddingBottom:'10px'
+  paddingBottom:'10px'      
   // borderBottom: "1px solid rgb(174,193,208)"
 };
 const checkInvalid = (val) => {
