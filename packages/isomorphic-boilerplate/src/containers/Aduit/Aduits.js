@@ -182,7 +182,7 @@ export default function Audits() {
       </PageHeader>
       <Box>
         <Row style={rowStyle} gutter={16} justify="start">
-          <Col md={8} sm={8} xs={12} >         
+          <Col md={8} sm={8} xs={12} >      
           </Col>
           <Col md={12} sm={12} xs={24} >   
           </Col>

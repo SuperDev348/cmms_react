@@ -24,7 +24,7 @@ const colStyle = {
 const gutter = 16;
 
 export default function(props) {  
-  const {data} = props;     
+  const {data} = props;
 
   const [strAuditPlan, setStrAuditPlan] = React.useState("");
   const [aDate, setADate] = React.useState(null);
