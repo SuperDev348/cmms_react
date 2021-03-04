@@ -12,7 +12,7 @@ export default function SingleWorkOrder() {
   // const { initialUsers, currentInvoice } = users;
 
    const redirectPath = "/dashboard/workorder";
-   if(id){
+   if(id){      
     return (
       <EditWorkOrder         
         {...workorders}

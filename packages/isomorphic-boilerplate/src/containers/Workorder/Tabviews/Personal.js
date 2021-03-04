@@ -39,7 +39,7 @@ export default function(props) {
           pagination={false}
           className="isoGroupTable"
         />
-      {/* </Scrollbars> */}
+      {/* </Scrollbars> */}          
       <div style={{color: "rgb(102, 115, 136)",   
           fontSize: "10pt",
           background: "#f7f7f7",
