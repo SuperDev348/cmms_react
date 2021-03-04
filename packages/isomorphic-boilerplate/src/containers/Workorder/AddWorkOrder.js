@@ -422,7 +422,7 @@ export default function (props) {
                       <Input
                         label="Set Offline By User"
                         placeholder=""
-                        value={strProjectTxt}           
+                        value={strProjectTxt}      
                         style={{ width: "90%" }}
                         onChange={() => {setProjectModalActive(true)}}
                       />
