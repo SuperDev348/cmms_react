@@ -14,7 +14,7 @@ export default function SingleWorkOrder() {
    const redirectPath = "/dashboard/workorder";
    if(id){
     return (
-      <EditWorkOrder
+      <EditWorkOrder     
         {...workorders}
         selectedId={id}
         redirectPath={redirectPath}

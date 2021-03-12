@@ -408,7 +408,7 @@ export default function (props) {
                           cursor: "pointer",
                           position: "absolute",
                           marginLeft: "5px",
-                        }}
+                        }}      
                       ></i>
                     </div>
                   </Fieldset>
