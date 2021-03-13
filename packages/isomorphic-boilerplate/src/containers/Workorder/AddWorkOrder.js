@@ -409,7 +409,7 @@ export default function (props) {
                           position: "absolute",
                           marginLeft: "5px",
                         }}
-                      ></i>     
+                      ></i>
                     </div>
                   </Fieldset>
                 </Form>
