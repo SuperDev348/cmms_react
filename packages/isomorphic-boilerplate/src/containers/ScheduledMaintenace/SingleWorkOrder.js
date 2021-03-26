@@ -15,7 +15,7 @@ export default function SingleWorkOrder() {
    if(id){
     return (
       <EditWorkOrder
-        {...workorders}    
+        {...workorders}
         selectedId={id}
         redirectPath={redirectPath}
       />

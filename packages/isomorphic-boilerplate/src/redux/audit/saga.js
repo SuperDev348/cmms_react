@@ -42,7 +42,7 @@ export function* getAudits() {
       callResult.data.data.map((value, index) => {          
            value.key=parseInt(index)+1;
            temp.push(value);
-      });    
+      });
     
       yield put({
         type: actions.GET_AUDIT_REDUCER,
