@@ -314,7 +314,7 @@ export default function (props) {
            <Col md={4} sm={4} xs={24} style={colStyle}>
               {
                 multiAssets()
-              }
+              }    
            </Col>
            <Col md={20} sm={20} xs={24} style={colStyle}>
             <Row style={rowStyle} gutter={gutter} justify="start">
