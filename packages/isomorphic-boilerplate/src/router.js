@@ -38,7 +38,7 @@ const publicRoutes = [
     ),
   },
 ];
-     
+
 function PrivateRoute({ children, ...rest }) {
   const isLoggedIn = useSelector(state => state.Auth.idToken);
 
