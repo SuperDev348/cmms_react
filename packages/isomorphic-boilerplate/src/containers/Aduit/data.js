@@ -1,6 +1,6 @@
 
 const sortOption = {};
-class sortFunction {
+class sortFunction {          
   constructor(size) {
     this.size = size || 2000;
     this.datas = [];

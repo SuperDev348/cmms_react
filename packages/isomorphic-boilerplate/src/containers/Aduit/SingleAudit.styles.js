@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { palette } from 'styled-theme';
-import WithDirection from '@iso/lib/helpers/rtl';
+import WithDirection from '@iso/lib/helpers/rtl';          
 
 const PageWrapper = styled.div`
   .PageHeader {
