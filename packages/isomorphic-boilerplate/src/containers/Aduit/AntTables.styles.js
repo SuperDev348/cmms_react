@@ -1,6 +1,6 @@
 import Table from '@iso/components/uielements/table';
 import styled from 'styled-components';
-import { palette } from 'styled-theme';          
+import { palette } from 'styled-theme';
 import {
   transition,
   boxShadow,
