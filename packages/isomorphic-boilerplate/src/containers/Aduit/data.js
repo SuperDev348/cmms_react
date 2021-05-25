@@ -5,7 +5,7 @@ class sortFunction {
     this.size = size || 2000;
     this.datas = [];
     this.sortKey = null;
-    this.sortDir = null;    
+    this.sortDir = null;
   }  
   getSize() {
     return this.size;
