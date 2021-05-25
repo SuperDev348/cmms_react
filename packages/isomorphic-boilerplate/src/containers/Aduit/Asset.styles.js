@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { palette } from 'styled-theme';
 import BoxComponent from '@iso/components/utility/box';
-import WithDirection from '@iso/lib/helpers/rtl';
+import WithDirection from '@iso/lib/helpers/rtl';    
 const BoxWrapper = styled(BoxComponent)`
   .isoInvoiceTableBtn {
     display: flex;
