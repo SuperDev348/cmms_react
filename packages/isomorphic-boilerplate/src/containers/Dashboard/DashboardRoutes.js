@@ -1,7 +1,7 @@
 import React, { lazy, Suspense } from 'react';
 import { Route, useRouteMatch, Switch } from 'react-router-dom';
 import Loader from '@iso/components/utility/loader';
-    
+
 const routes = [
   {
     path: '',

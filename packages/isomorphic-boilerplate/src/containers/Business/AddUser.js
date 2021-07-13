@@ -11,7 +11,7 @@ import UserPageWrapper from "./SingleUser.styles";
 import { Account,Groups } from "./Tabviews/Tabviews";
 import userActions from '../../redux/user/actions';
 import { Col, Row, Form, } from "antd";
-    
+
 const { addUser } = userActions;
 
 const rowStyle = {
