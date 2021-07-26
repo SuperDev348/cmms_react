@@ -29,7 +29,7 @@ const gutter = 16;
 function callback(key) {} 
 export default function (props) {
   const dispatch = useDispatch();
-  const {   redirectPath } = props;
+  const { redirectPath } = props;
   const [strFullName, setStrFullName] = React.useState('');
   const [intUserStatusID, setIntUserStatusID] = React.useState(true);
   const [strTelephone2, setStrTelephone2] = React.useState('');
