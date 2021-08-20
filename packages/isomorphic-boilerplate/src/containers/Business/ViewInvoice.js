@@ -1,4 +1,4 @@
-import React from 'react';   
+import React from 'react'; 
 import { Link } from 'react-router-dom';
 import Box from '@iso/components/utility/box';
 import Button from '@iso/components/uielements/button';
