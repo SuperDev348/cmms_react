@@ -5,7 +5,7 @@ import Button from '@iso/components/uielements/button';
 import LayoutWrapper from '@iso/components/utility/layoutWrapper';
 import InvoicePageWrapper from './SingleUser.styles';
 import Invoice from './Invoice';
-   
+     
 export default function (props) {
   const { currentInvoice, toggleView, redirectPath } = props;
   console.log(props, 'props');
