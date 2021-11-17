@@ -6,7 +6,7 @@ import Input, { InputGroup, Textarea } from "@iso/components/uielements/input";
 // import DateTimePicker from "react-datetime-picker";
 import { DatePicker } from 'antd';
 import LayoutWrapper from "@iso/components/utility/layoutWrapper";
-import { TableTabsStyle } from "./Asset.styles";
+import { TableTabsStyle } from "./Asset.styles";   
 import Tabs, { TabPane } from "@iso/components/uielements/tabs";
 import PageWrapper from "./SingleWorkOrder.styles";
 // import Checkbox from '@iso/components/uielements/checkbox';
