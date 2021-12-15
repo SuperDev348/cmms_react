@@ -1,4 +1,4 @@
-
+    
 const sortOption = {};
 class sortFunction {          
   constructor(size) {
