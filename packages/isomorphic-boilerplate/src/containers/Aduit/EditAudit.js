@@ -21,12 +21,12 @@ import DrillCategoryModal from "../../component/DrillCategoryModal";
 import DrillTypeModal from "../../component/DrillTypeModal";
 import DrillFrequencyModal from "../../component/DrillFrequencyModal";
 // import ProjectModal from "../../component/ProjectModal";
-import AssetModal from "../../component/AssetModal"
-import UsersContentModal from '../../component/UsersContentModal';
-import UsersContentModal1 from '../../component/UsersContentModal';
-import AuditStatusModal from '../../component/AuditStatusModal';
-import newInnerImg  from '../../assets/images/new-inner-list.png';
-import auditAction from '../../redux/audit/actions';
+// import AssetModal from "../../component/AssetModal"
+// import UsersContentModal from '../../component/UsersContentModal';
+// import UsersContentModal1 from '../../component/UsersContentModal';
+// import AuditStatusModal from '../../component/AuditStatusModal';
+// import newInnerImg  from '../../assets/images/new-inner-list.png';
+// import auditAction from '../../redux/audit/actions';
 
 import {
   Fieldset,

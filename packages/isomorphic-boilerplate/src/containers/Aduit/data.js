@@ -23,19 +23,19 @@ class sortFunction {
     return this.datas.sort(this.sort);
   }
   sort(optionA, optionB) {
-    const valueA = optionA[sortOption.sortKey]!=null?optionA[sortOption.sortKey].toString().toUpperCase():null;
-    const valueB = optionB[sortOption.sortKey]!=null?optionB[sortOption.sortKey].toString().toUpperCase():null;
-    let sortVal = 0;
-    if (valueA > valueB) {
-      sortVal = 1;
-    }
-    if (valueA < valueB) {
-      sortVal = -1;
-    }
-    if (sortVal !== 0 && sortOption.sortDir === 'DESC') {
-      return sortVal * -1;
-    }
-    return sortVal;
+    // const valueA = optionA[sortOption.sortKey]!=null?optionA[sortOption.sortKey].toString().toUpperCase():null;
+    // const valueB = optionB[sortOption.sortKey]!=null?optionB[sortOption.sortKey].toString().toUpperCase():null;
+    // let sortVal = 0;
+    // if (valueA > valueB) {
+    //   sortVal = 1;
+    // }
+    // if (valueA < valueB) {
+    //   sortVal = -1;
+    // }
+    // if (sortVal !== 0 && sortOption.sortDir === 'DESC') {
+    //   return sortVal * -1;
+    // }
+    // return sortVal;
   }
 }
 export default sortFunction;
