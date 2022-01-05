@@ -18,13 +18,13 @@ import Modals from '@iso/components/Feedback/Modal';
 import AssetCategoryModal from '../../component/AssetCategoryModal';
 import ModalStyle, { ModalContent } from './Styles/Modal.styles';
 import WithDirection from '@iso/lib/helpers/rtl';
-// import treeViewImg from '../../assets/images/hierarchy-view.png';
-// import flatViewImg from '../../assets/images/flat-view-on.png';
-// import facilityImg from '../../assets/images/facilities-48.png'
-// import equipmentImg from '../../assets/images/equipment-48.png'
-// import toolImg from '../../assets/images/tools-48.png'
-// import onlineImg from '../../assets/images/running-small.png'
-// import offlineImg from '../../assets/images/paused-small.png'
+import treeViewImg from '../../assets/images/hierarchy-view.png';
+import flatViewImg from '../../assets/images/flat-view-on.png';
+import facilityImg from '../../assets/images/facilities-48.png'
+import equipmentImg from '../../assets/images/equipment-48.png'
+import toolImg from '../../assets/images/tools-48.png'
+import onlineImg from '../../assets/images/running-small.png'
+import offlineImg from '../../assets/images/paused-small.png'
 import sortFunction from './data';
 const dataList = new sortFunction();
 // import 'antd/dist/antd.css';
