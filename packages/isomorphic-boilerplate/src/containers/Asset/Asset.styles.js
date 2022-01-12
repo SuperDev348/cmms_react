@@ -1,10 +1,21 @@
 import styled from 'styled-components';
 import { palette } from 'styled-theme';
-// import BoxComponent from '@iso/components/utility/box';
+import BoxComponent from '@iso/components/utility/box';
 import WithDirection from '@iso/lib/helpers/rtl';
 
 
-
+const BoxWrapper = styled(BoxComponent)`
+  .isoInvoiceTableBtn {
+    display: flex;
+    margin-bottom: 20px;
+    a {
+      margin-left: auto;
+    }
+  }
+  .pst{
+    font-size: 25px;
+  }
+`;
 
 const StatusTag = styled.span`
   padding: 0 5px;
