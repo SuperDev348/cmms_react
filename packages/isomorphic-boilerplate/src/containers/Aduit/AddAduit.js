@@ -70,17 +70,17 @@ export default function (props) {
 
   const [strPlanAuditPlan,setStrPlanAuditPlan]=React.useState("");
   const [strPlanDate,setStrPlanDate]=React.useState("");
-  // const [strPlanOpenMeetingBegin,setStrPlanOpenMeetingBegin]=React.useState("");
-  // const [strPlanOpenMeetingClose,setStrPlanOpenMeetingClose]=React.useState("");
-  // const [strPlanOpenMeetingPresent,setStrPlanOpenMeetingPresent]=React.useState("");
-  // const [strPlanOpenMeetingDetail,setStrPlanOpenMeetingDetail]=React.useState("");
-  // const [strPlanConductAuditBegin,setStrPlanConductAuditBegin]=React.useState("");
-  // const [strPlanConductAuditClose,setStrPlanConductAuditClose]=React.useState("");
-  // const [strPlanConductAuditDetail,setStrPlanConductAuditDetail]=React.useState("");
-  // const [strPlanCloseMeetingBegin,setStrPlanCloseMeetingBegin]=React.useState("");
-  // const [strPlanCloseMeetingClose,setStrPlanCloseMeetingClose]=React.useState("");
-  // const [strPlanCloseMeetingPresent,setStrPlanCloseMeetingPresent]=React.useState("");
-  // const [strPlanCloseMeetingDetail,setStrPlanCloseMeetingDetail]=React.useState("");
+  const [strPlanOpenMeetingBegin,setStrPlanOpenMeetingBegin]=React.useState("");
+  const [strPlanOpenMeetingClose,setStrPlanOpenMeetingClose]=React.useState("");
+  const [strPlanOpenMeetingPresent,setStrPlanOpenMeetingPresent]=React.useState("");
+  const [strPlanOpenMeetingDetail,setStrPlanOpenMeetingDetail]=React.useState("");
+  const [strPlanConductAuditBegin,setStrPlanConductAuditBegin]=React.useState("");
+  const [strPlanConductAuditClose,setStrPlanConductAuditClose]=React.useState("");
+  const [strPlanConductAuditDetail,setStrPlanConductAuditDetail]=React.useState("");
+  const [strPlanCloseMeetingBegin,setStrPlanCloseMeetingBegin]=React.useState("");
+  const [strPlanCloseMeetingClose,setStrPlanCloseMeetingClose]=React.useState("");
+  const [strPlanCloseMeetingPresent,setStrPlanCloseMeetingPresent]=React.useState("");
+  const [strPlanCloseMeetingDetail,setStrPlanCloseMeetingDetail]=React.useState("");
 
   const [aInspectionData, setAInspectionData] = React.useState([]);
 
