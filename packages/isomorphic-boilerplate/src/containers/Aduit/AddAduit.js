@@ -53,11 +53,11 @@ const margin = {
 
 export default function (props) {
   const dispatch = useDispatch();
-  const { redirectPath } = props;
-  const [assetModalActive, setAssetModalActive] = React.useState(false);
-  const [auditorModalActive, setAuditorModalActive] = React.useState(false);
-  const [auditeeModalActive, setAuditeeModalActive] = React.useState(false);
-  const [statusModalActive, setStatusModalActive] = React.useState(false);
+  // const { redirectPath } = props;
+  // const [assetModalActive, setAssetModalActive] = React.useState(false);
+  // const [auditorModalActive, setAuditorModalActive] = React.useState(false);
+  // const [auditeeModalActive, setAuditeeModalActive] = React.useState(false);
+  // const [statusModalActive, setStatusModalActive] = React.useState(false);
 
   const [strPassState, setStrPassState]=React.useState("");
   const [strTitle,setStrTitle]=React.useState("");
