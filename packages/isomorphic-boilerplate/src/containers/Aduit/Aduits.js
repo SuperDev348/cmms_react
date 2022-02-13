@@ -46,18 +46,18 @@ const {getAllUserData}=userAction;
 //   9:"Meter_Reading",
 //   10:"Other",
 // }
-// const maintanceType_color_array={
-//   1:"#2d61ae",
-//   2:"#cc4140",
-//   3:"#74bc50",
-//   4:"#FF9900",
-//   5:"#6fae9c",
-//   6:"#d2ca4e",
-//   7:"#967855",
-//   8:"#638582",
-//   9:"#7F7F7F",
-//   10:"#d36e87",
-// }
+const maintanceType_color_array={
+  1:"#2d61ae",
+  2:"#cc4140",
+  3:"#74bc50",
+  4:"#FF9900",
+  5:"#6fae9c",
+  6:"#d2ca4e",
+  7:"#967855",
+  8:"#638582",
+  9:"#7F7F7F",
+  10:"#d36e87",
+}
 const rowStyle = {
   width: "100%",
   display: "flex",
