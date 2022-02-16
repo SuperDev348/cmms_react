@@ -24,6 +24,10 @@ const StatusTag = styled.span`
   color: #ffffff;
   text-transform: capitalize;
 
+  &.pending {
+    background-color: ${palette('error', 0)};
+  }
+
   &.shipped {
     background-color: ${palette('warning', 0)};
   }
