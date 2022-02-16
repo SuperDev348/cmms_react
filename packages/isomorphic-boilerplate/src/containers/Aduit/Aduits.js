@@ -9,7 +9,7 @@ import {  Tooltip } from 'antd';
 import LayoutWrapper from "@iso/components/utility/layoutWrapper";
 import PageHeader from "@iso/components/utility/pageHeader";
 import IntlMessages from "@iso/components/utility/intlMessages";
-// import Scrollbars from "@iso/components/utility/customScrollBar";
+import Scrollbars from "@iso/components/utility/customScrollBar";
 import Button from "@iso/components/uielements/button";
 import { Col, Row } from "antd";
 import clone from 'clone';

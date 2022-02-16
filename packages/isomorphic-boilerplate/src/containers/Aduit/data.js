@@ -16,12 +16,6 @@ class sortFunction {
     sortOption.sortDir = 'ASC';
     return this.datas.sort(this.sort);
   }
-  getSortDesc(sortKey,data) {
-    this.datas=data;
-    sortOption.sortKey = sortKey;
-    sortOption.sortDir = 'DESC';
-    return this.datas.sort(this.sort);
-  }
   sort(optionA, optionB) {
     const valueA = optionA[sortOption.sortKey]!=null?optionA[sortOption.sortKey].toString().toUpperCase():null;
     const valueB = optionB[sortOption.sortKey]!=null?optionB[sortOption.sortKey].toString().toUpperCase():null;
