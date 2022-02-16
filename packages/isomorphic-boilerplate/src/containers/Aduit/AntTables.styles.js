@@ -13,9 +13,6 @@ const TableWrapper = styled(Table)`
   overflow-x: auto;
   background-color: #ffffff;
 
-  .ant-table-body {
-    overflow-x: auto;
-  }
 
   .ant-table-thead > tr > th {
     color: ${palette('secondary', 2)};
