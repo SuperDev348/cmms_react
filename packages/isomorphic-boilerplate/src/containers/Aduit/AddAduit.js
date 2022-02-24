@@ -26,8 +26,8 @@ import UsersContentModal from '../../component/UsersContentModal';
 import UsersContentModal1 from '../../component/UsersContentModal';
 import AuditStatusModal from '../../component/AuditStatusModal';
 // import OtherAssetModal from "../../component/AssetModal"
-// import newInnerImg  from '../../assets/images/new-inner-list.png';
-// import auditAction from '../../redux/audit/actions';
+import newInnerImg  from '../../assets/images/new-inner-list.png';
+import auditAction from '../../redux/audit/actions';
 
 import {
   Fieldset,

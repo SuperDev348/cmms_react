@@ -6,7 +6,7 @@ import {
   boxShadow,
   borderRadius,
 } from '@iso/lib/helpers/style_utils';
-import WithDirection from '@iso/lib/helpers/rtl';
+// import WithDirection from '@iso/lib/helpers/rtl';
    
 const TableWrapper = styled(Table)`
   overflow: hidden;

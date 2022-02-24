@@ -14,10 +14,10 @@ import Button from "@iso/components/uielements/button";
 import { Col, Row } from "antd";
 import clone from 'clone';
 import Actions from "../../redux/audit/actions";
-// import userAction from "../../redux/user/actions";
-// import CardWrapper, { Box } from "./Asset.styles";
-// import TableWrapper from "../../component/AntTables.styles";
-// import sortFunction from './data';
+import userAction from "../../redux/user/actions";
+import CardWrapper, { Box } from "./Asset.styles";
+import TableWrapper from "../../component/AntTables.styles";
+import sortFunction from './data';
 const dataList = new sortFunction();
 
 const { initData } = Actions;
