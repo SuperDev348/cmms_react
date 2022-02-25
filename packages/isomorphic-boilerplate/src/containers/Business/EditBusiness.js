@@ -8,9 +8,6 @@ import Input from "@iso/components/uielements/input";
 import Tabs, { TabPane } from "@iso/components/uielements/tabs";
 import LayoutWrapper from "@iso/components/utility/layoutWrapper";
 import {Fieldset, Label,TableTabsStyle } from "./User.styles";
-import UserPageWrapper from "./SingleUser.styles";
-import { General,Location,AssignedAsset,Personal } from "./Tabviews/Tabviews";
-import businessActions from '../../redux/business/actions';
 
 const { getData,getById } = businessActions;
 const rowStyle = {
