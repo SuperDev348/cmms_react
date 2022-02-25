@@ -10,9 +10,9 @@ import Input, { InputGroup ,Textarea} from "@iso/components/uielements/input";
 import LayoutWrapper from '@iso/components/utility/layoutWrapper.js';
 import LayoutContentWrapper from '@iso/components/utility/layoutWrapper';
 import IntlMessages from '@iso/components/utility/intlMessages';
-// import AssetPageWrapper from "./SingleAsset.styles";
-// import { TableTabsStyle } from "./Asset.styles";
-// import { Col, Row, Form } from "antd";
+import AssetPageWrapper from "./SingleAsset.styles";
+import { TableTabsStyle } from "./Asset.styles";
+import { Col, Row, Form } from "antd";
 
 import {General} from './Equipment/Tabviews/Tabviews';
 const FormItem = Form.Item;
