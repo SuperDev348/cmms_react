@@ -9,7 +9,7 @@ import Tabs, { TabPane } from "@iso/components/uielements/tabs";
 import LayoutContentWrapper from "@iso/components/utility/layoutWrapper";
 import PageWrapper from "./Single.styles";
 import { TableTabsStyle } from "./Asset.styles";
-// import Checkbox from '@iso/components/uielements/checkbox';
+import Checkbox from '@iso/components/uielements/checkbox';
  import { AssetCategory } from "./Tabviews/Tabviews";
 import usergroupAction from "../../redux/usergroup/actions";
 import { Col, Row, Form } from "antd";
