@@ -145,7 +145,7 @@ const ControlledTree = () => {
             title={'ASSET CATEGORY'}
             // okText={article.key ? 'Update Article' : 'Add Article'}
             // onOk={() => handleRecord('insert', article)}
-            onCancel={handleCancel}
+            // onCancel={handleCancel}
           >          
        </CreateAssetCategoryModal>
 
@@ -159,7 +159,7 @@ const ControlledTree = () => {
             intSysCode={intSysCode}
             // okText={article.key ? 'Update Article' : 'Add Article'}
             // onOk={() => handleRecord('insert', article)}
-            onCancel={handleCancel}
+            // onCancel={handleCancel}
           >          
        </EditAssetCategoryModal>
       {/* customize category end */}
