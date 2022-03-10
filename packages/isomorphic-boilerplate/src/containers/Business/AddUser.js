@@ -43,9 +43,6 @@ export default function (props) {
   const [bolGroup, setBolGroup] = React.useState(false);
   const [bolApiManaged, setBolApiManaged] = React.useState(false);
   const [strPreferences, setStrPreferences] = React.useState('');
-  const [password, setPassword] = React.useState('');
-  const [passwordconfirm, setPasswordconfirm] = React.useState('');
-  const [strGroupIds,setStrGroupIds]=React.useState('');
 
   const accountIf=(inf)=>{  
     setStrEmailAddress(inf.strEmailAddress);

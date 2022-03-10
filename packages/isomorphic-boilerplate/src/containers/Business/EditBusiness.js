@@ -31,8 +31,8 @@ export default function (props) {
   let history = useHistory();
   const { business} = useSelector((state) => state.Business);
   // const { userId } = useParams();
-  // const [strName, setStrName] = React.useState('');
-  // const [strCode, setStrCode] = React.useState('');
+  const [strName, setStrName] = React.useState('');
+  const [strCode, setStrCode] = React.useState('');
 
   const [strPrimaryContact, setStrPrimaryContact] = React.useState('');
   const [strPhone, setStrPhone] = React.useState('');
