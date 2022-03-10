@@ -109,7 +109,7 @@ const onSave = () => {
       parentKind={"Assets"}
       onCancel={handleCancel}
       title={'ASSET CATEGORIES'}
-      onCancel={handleCancel}
+      // onCancel={handleCancel}
     ></AssetCategoryModal>
    </div>
  );
