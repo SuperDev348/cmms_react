@@ -1,9 +1,7 @@
 import React from 'react';
 // import TableWrapper from '../AntTables.styles';
-import { Col, Row, Form } from "antd";
-import Scrollbars from "@iso/components/utility/customScrollBar";
+import { Form } from "antd";
 import TableWrapper from "@iso/containers/Tables/AntTables/AntTables.styles";
-import addDoubleImg from '../../../../assets/images/new-group-inner-list.png';
 import newAddImg from '../../../../assets/images/new-inner-list.png';
 const FormItem = Form.Item;
 
@@ -17,7 +15,6 @@ export default function(props) {
       rowKey: "strEmailUserGuest",
       width: "20%",  
     },
-    
     {
       title: "",
       dataIndex: "intWorkOrderStatusID",
@@ -25,7 +22,6 @@ export default function(props) {
       width: "*",
       render: (text) => <span>{text}</span>,
     },    
-   
   ];
   return (
     <div className="isoInvoiceTable">

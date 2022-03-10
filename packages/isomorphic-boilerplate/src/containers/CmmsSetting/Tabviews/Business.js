@@ -25,13 +25,6 @@ export default function(props) {
       render: (text) => <span>{text}</span>,
     },
     {
-      title: "Business Asset Number",
-      dataIndex: "intWorkOrderStatusID",
-      rowKey: "intWorkOrderStatusID",
-      width: "15%",
-      render: (text) => <span>{text}</span>,
-    },    
-    {
       title: "Catalog",
       dataIndex: "intWorkOrderStatusID",
       rowKey: "intWorkOrderStatusID",
