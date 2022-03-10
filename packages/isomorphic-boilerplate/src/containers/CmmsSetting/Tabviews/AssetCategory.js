@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Tree } from "antd";
 import Actions from "../../../redux/assetcategory/actions";
-// import newAddImg from "../../../assets/images/new-inner-list.png";
-// import CreateAssetCategoryModal from '../../../component/CreateAssetCategoryModal';
-// import EditAssetCategoryModal from '../../../component/EditAssetCategoryModal';
+import newAddImg from "../../../assets/images/new-inner-list.png";
+import CreateAssetCategoryModal from '../../../component/CreateAssetCategoryModal';
+import EditAssetCategoryModal from '../../../component/EditAssetCategoryModal';
 const { initData } = Actions;
 
 const treeData1 = [
