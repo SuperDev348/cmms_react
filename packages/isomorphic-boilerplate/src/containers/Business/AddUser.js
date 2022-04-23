@@ -22,9 +22,6 @@ const rowStyle = {
 const colStyle = {
   marginBottom: "16px",
 };
-const colSwitchStyle = {
-  marginTop:"30px"
-};
 const gutter = 16;
 function callback(key) {} 
 export default function (props) {
