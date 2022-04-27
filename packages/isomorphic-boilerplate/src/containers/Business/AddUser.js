@@ -22,14 +22,14 @@ const rowStyle = {
 const colStyle = {
   marginBottom: "16px",
 };
+const colSwitchStyle = {
+  marginTop:"30px"
+};
 const gutter = 16;
 function callback(key) {} 
 export default function (props) {
   const dispatch = useDispatch();
   const { redirectPath } = props;
-  const [strFullName, setStrFullName] = React.useState('');
-  const [intUserStatusID, setIntUserStatusID] = React.useState(true);
-  const [strTelephone2, setStrTelephone2] = React.useState('');
   const [strEmailAddress, setStrEmailAddress] = React.useState('');
   const [strUserTitle, setStrUserTitle] = React.useState('');
   const [strPersonnelCode, setStrPersonnelCode] = React.useState('');

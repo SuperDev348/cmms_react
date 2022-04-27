@@ -13,6 +13,7 @@ import { TableTabsStyle } from "./Asset.styles";
  import { AssetCategory } from "./Tabviews/Tabviews";
 import usergroupAction from "../../redux/usergroup/actions";
 import { Col, Row, Form } from "antd";
+const FormItem = Form.Item;
 
 const { add } = usergroupAction;
 function callback(key) {}
