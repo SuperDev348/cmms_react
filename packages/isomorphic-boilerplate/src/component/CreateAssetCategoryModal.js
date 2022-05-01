@@ -103,6 +103,14 @@ const onSave = () => {
        </div>
        <div style={{ marginTop: "3px" }}></div>
      </Modal>
+    <AssetCategoryModal
+      visible={assetCategoryActive}
+      selectedCategory={selectedParent}
+      parentKind={"Assets"}
+      onCancel={handleCancel}
+      title={'ASSET CATEGORIES'}
+      // onCancel={handleCancel}
+    ></AssetCategoryModal>
    </div>
  );
 }
