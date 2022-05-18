@@ -12,6 +12,18 @@ import UserPageWrapper from "./SingleUser.styles";
 import { General,Location,AssignedAsset,Personal } from "./Tabviews/Tabviews";
 import businessActions from '../../redux/business/actions';
 
+const { getData,getById } = businessActions;
+const rowStyle = {
+  width: "100%",
+  display: "flex",
+  flexFlow: "row wrap",
+};
+const colStyle = {
+  marginBottom: "16px",
+};
+const colSwitchStyle = {
+  marginTop:"30px"
+};
 const gutter = 16;
 function callback(key) {} 
 export default function (props) {
