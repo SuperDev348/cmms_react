@@ -7,13 +7,6 @@ import CreateAssetCategoryModal from '../../../component/CreateAssetCategoryModa
 import EditAssetCategoryModal from '../../../component/EditAssetCategoryModal';
 const { initData } = Actions;
 
-const treeData1 = [
-  {
-    title: "Assets",
-    key: 0,   
-    _id:0   
-  },
-];
 
 function unflatten(arr) {
   var tree = [],
