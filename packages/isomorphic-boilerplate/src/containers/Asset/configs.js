@@ -8,6 +8,19 @@ import {
   TextCell,
 } from '@iso/components/Tables/HelperCells';
 
+const renderCell = (object, type, key) => {
+  const value = object[key];
+  switch (type) {
+    case 'ImageCell':
+      return ImageCell(value);
+    case 'DateCell':
+      return DateCell(value);
+    case 'LinkCell':
+      return LinkCell(value);
+    default:
+      return TextCell(value);
+  }
+};
 
 const columns = [
   {

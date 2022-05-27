@@ -1,6 +1,12 @@
 import React from 'react';
 import clone from 'clone';
 import IntlMessages from '@iso/components/utility/intlMessages';
+import {
+  DateCell,
+  ImageCell,
+  LinkCell,
+  TextCell,
+} from '@iso/components/Tables/HelperCells';
 
 const renderCell = (object, type, key) => {
   const value = object[key];
