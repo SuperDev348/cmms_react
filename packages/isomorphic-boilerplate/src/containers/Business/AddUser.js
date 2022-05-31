@@ -6,6 +6,11 @@ import Button from "@iso/components/uielements/button";
 import Input, { InputGroup ,Textarea} from "@iso/components/uielements/input";
 import Tabs, { TabPane } from "@iso/components/uielements/tabs";
 import LayoutWrapper from "@iso/components/utility/layoutWrapper";
+import {Fieldset, Label,TableTabsStyle } from "./User.styles";
+import UserPageWrapper from "./SingleUser.styles";
+import { Account,Groups } from "./Tabviews/Tabviews";
+import userActions from '../../redux/user/actions';
+import { Col, Row, Form, } from "antd";
 
 const { addUser } = userActions;
 
