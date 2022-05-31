@@ -4,6 +4,23 @@ import WithDirection from '@iso/lib/helpers/rtl';
 
 const UserPageWrapper = styled.div`
   .PageHeader {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-align-items: flex-end;
+    -webkit-box-align: flex-end;
+    -ms-flex-align: flex-end;
+    align-items: flex-end;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: justify;
+    justify-content: flex-end;
+    margin-bottom: 30px;
 
     &.viewMode {
       @media only screen and (max-width: 400px) {
