@@ -31,6 +31,18 @@ const columns = [
     render: object => renderCell(object, 'ImageCell', 'avatar'),
   },
   {
+    title: <IntlMessages id="antTable.title.firstName" />,
+    key: 'firstName',
+    width: 100,
+    render: object => renderCell(object, 'TextCell', 'firstName'),
+  },
+  {
+    title: <IntlMessages id="antTable.title.lastName" />,
+    key: 'lastName',
+    width: 100,
+    render: object => renderCell(object, 'TextCell', 'lastName'),
+  },
+  {
     title: <IntlMessages id="antTable.title.city" />,
     key: 'city',
     width: 200,
