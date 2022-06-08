@@ -36,11 +36,6 @@ export default function (props) {
   const [strEmailAddress, setStrEmailAddress] = React.useState('');
   const [strUserTitle, setStrUserTitle] = React.useState('');
   const [strPersonnelCode, setStrPersonnelCode] = React.useState('');
-  const [strUserName, setStrUserName] = React.useState('');
-  const [strTelephone, setStrTelephone] = React.useState('');
-  const [strNotes, setStrNotes] = React.useState('');
-  const [strRequestNotes, setStrRequestNotes] = React.useState('');
-  const [bolGroup, setBolGroup] = React.useState(false);
   const [bolApiManaged, setBolApiManaged] = React.useState(false);
   const [strPreferences, setStrPreferences] = React.useState('');
   const [password, setPassword] = React.useState('');

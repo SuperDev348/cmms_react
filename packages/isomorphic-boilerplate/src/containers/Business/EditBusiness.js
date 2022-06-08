@@ -38,10 +38,6 @@ export default function (props) {
   const [strPhone, setStrPhone] = React.useState('');
   const [strPhone2, setStrPhone2] = React.useState('');
   const [strFax, setStrFax] = React.useState('');
-  const [strPrimaryEmail,setStrPrimaryEmail]=React.useState('');
-  const [strSecondaryEmail,setStrSecondaryEmail]=React.useState('');
-  const [strNotes,setStrNotes]=React.useState('');
-  const [strPrimaryCurrency,setStrPrimaryCurrency]=React.useState('');
   const [strWebSite,setStrWebSite]=React.useState('');
   const [strBusinessClassification,setStrBusinessClassification]=React.useState('');
 
