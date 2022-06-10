@@ -28,6 +28,25 @@ const UserPageWrapper = styled.div`
       }
     }
 
+    a {
+      text-decoration: none;
+    }
+    .isoGoInvoBtn {
+      margin-right: 15px;
+    }
+    .isoInvoPrint {
+      background: ${palette('blue', 14)};
+      margin: ${(props) =>
+        props['data-rtl'] === 'rtl' ? '0 15px 0 0' : '0 0 0 15px'};
+      @media (max-width: 500px) {
+        margin-top: 15px;
+      }
+
+      @media (max-width: 485px) {
+        margin: 0;
+        margin-top: 15px;
+      }
+    }
     .saveBtn {
       background: ${palette('blue', 14)};
       margin: ${(props) =>
