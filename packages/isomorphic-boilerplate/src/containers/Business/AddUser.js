@@ -66,13 +66,6 @@ export default function (props) {
       'strUserName'    :strUserName,
       'strTelephone'    :strTelephone,
       'strNotes'    :strNotes,
-      'strRequestNotes'    :strRequestNotes,
-      'bolGroup'    :bolGroup,
-      'bolApiManaged'    :bolApiManaged,
-      'strPreferences'    :strPreferences,
-      'password':password,
-      'passwordconfirm':passwordconfirm,
-      'strGroupIds':strGroupIds
     }
     dispatch(addUser(sendData));
   };  

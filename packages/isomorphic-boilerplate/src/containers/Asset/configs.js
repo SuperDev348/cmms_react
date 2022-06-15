@@ -13,6 +13,10 @@ const renderCell = (object, type, key) => {
   switch (type) {
     case 'ImageCell':
       return ImageCell(value);
+    case 'DateCell':
+      return DateCell(value);
+    case 'LinkCell':
+      return LinkCell(value);
     default:
       return TextCell(value);
   }
