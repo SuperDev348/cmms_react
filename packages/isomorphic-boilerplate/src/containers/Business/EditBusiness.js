@@ -100,6 +100,14 @@ export default function (props) {
       setStrPrimaryEmail(business.strPrimaryEmail);
       setStrSecondaryEmail(business.strSecondaryEmail);
       setStrPrimaryCurrency(business.strPrimaryCurrency);
+      setStrNotes(business.strNotes);
+
+      setStrAddress(business.strAddress);
+      setStrCity(business.strCity);
+      setStrProvince(business.strProvince);
+      setStrPostalCode(business.strPostalCode);
+      setIntCountryID(business.intCountryID);
+      setStrTimezone(business.strTimezone);
 
     }
    }, [business]);
